@@ -1,5 +1,5 @@
 # GuessTheStateTrick
-Have you seen the Rick Lax (aka the "Deception Expert") triack where he guesses which state you are thinking? If not, watch the trick performed [here](https://www.facebook.com/DeceptionExpert/videos/525098757671982/).
+Have you seen the Rick Lax (aka the "Deception Expert") trick where he guesses which state you are thinking? If not, watch the trick performed [here](https://www.facebook.com/DeceptionExpert/videos/525098757671982/).
 
 So did he guess the state you were thinking? There is actaully a _very_ good chance that he got it right, and you may have already figured out why.
 
