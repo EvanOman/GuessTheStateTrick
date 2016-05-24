@@ -15,18 +15,20 @@ List("Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Conn
 "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming")
 ```
 
-Next Rick asks you to think about the last letter, indicating that he will just be guessing the last letter of your state. As it happens, all 50 states share the same 12 final letters. This means that if Rick were to guess the final letter of your state, he would have improved his chance of guessing it correctly to 1 in twelve (roughly). 
+Next Rick asks you to think about the last letter of your state. As it happens, all 50 states share the same 12 final letters. This means that if Rick were to guess the final letter of your state, he would have improved his chance of guessing it correctly to 1 in twelve (roughly). 
 
 So really he only needs to pick the correct element of this list:
 ```{scala}
 List('a', 'd', 'e', 'g', 'h', 'i', 'k', 'n', 'o', 's', 't', 'y')
 ```
 
-Finally, Rick adds one more level of complication (which actually makes it easier for him). He assigns the colors Red, White, and Blue to a set of letters. He then announces that he will be guessing the color which corresponds to the final letter of your state.
+Finally, Rick adds one more level of complication (which actually makes the trick a lot easier for him). He assigns the colors Red, White, and Blue to a set of letters. He then announces that he will be guessing the color which corresponds to the final letter of your state.
+
+![Letter Colors](https://github.com/EvanOman/GuessTheStateTrick/blob/master/colors.PNG)
 
 Here is where he really cements his advantage. While it may seem like the colors are assigned randomly, it turns out that 47 states belong to the red group while only 2 states belong to white group and 2 states belong to the blue group (they share Utah).
 
-Thus Rick has to choose between 3 groups, one of which accounts for 47 or 94% of the states, while the other two groups only account for 6% of the states. The choice is pretty clear.
+Thus Rick has to choose between 3 groups, one of which accounts for 47 or 94% of the states, while the other two groups only account for 6% of the states.
 
 Additionally, Rick used New York and Utah as examples during his presentation, meaning that a lot of people would probably filter these out (intentionally or unintentionally) leaving only 48 states to choose from, 47 of which are covered by his red group of letters.
 
@@ -34,4 +36,4 @@ So in the end Rick has about a 94% chance of guessing the color which matches yo
 
 Now if he picked the wrong state every time, that would be impressive...
 
-If you are interested in how computer programming can be used to aid the analysis above, check out [this notebook](https://github.com/EvanOman/GuessTheStateTrick/blob/master/Guess%20The%20State.ipynb) which quickly analyzes the structure of this problem.
+If you are interested in how computer programming can be used to aid the analysis above, check out [this notebook](https://github.com/EvanOman/GuessTheStateTrick/blob/master/Guess%20The%20State.ipynb) which quickly finds the number of unique state-name-final-characters and the number of states in each of the red, white, and blue groups.
