@@ -36,4 +36,4 @@ So in the end Rick has about a 94% chance of guessing the color which matches yo
 
 Now if he picked the wrong state every time, that would be impressive...
 
-If you are interested in how computer programming can be used to aid the analysis above, check out [this notebook](https://github.com/EvanOman/GuessTheStateTrick/blob/master/Guess%20The%20State.ipynb) which quickly finds the number of unique state-name-final-characters and the number of states in each of the red, white, and blue groups.
+If you are interested in how computer programming can be used to aid the analysis above, check out [this notebook](http://www.evanoman.com/GuessTheState.html) which quickly finds the number of unique state-name-final-characters and the number of states in each of the red, white, and blue groups.
