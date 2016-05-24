@@ -15,7 +15,7 @@ List("Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Conn
 "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming")
 ```
 
-Next Rick asks you to think about the last letter, indicating that he will just be guessing the last letter of your state. As it happens, all 50 states share the same 12 final letters. This means that if Jack were to guess the final letter of your state, he would have improved his chance of guessing it correctly to 1 in twelve (roughly). 
+Next Rick asks you to think about the last letter, indicating that he will just be guessing the last letter of your state. As it happens, all 50 states share the same 12 final letters. This means that if Rick were to guess the final letter of your state, he would have improved his chance of guessing it correctly to 1 in twelve (roughly). 
 
 So really he only needs to pick the correct element of this list:
 ```{scala}
