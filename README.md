@@ -1,9 +1,9 @@
 # Guess The State Trick
 Have you seen the Rick Lax (aka the "Deception Expert") trick where he guesses which state you are thinking? If not, watch the trick performed [here](https://www.facebook.com/DeceptionExpert/videos/525098757671982/).
 
-So did he guess the state you were thinking? There is actaully a _very_ good chance that he got it right, and you may have already figured out why.
+So did he correctly guess your state? There is actually a _very_ good chance that he got it right, and you may have already figured out why.
 
-He starts the trick by asking you to think of a state. At this point he has a 1 in 50 or 2% chance of guessing correctly (or more if he figures in common states vs. well know, bigger states).
+When he starts the trick, he has a 1 in 50 or 2% chance of guessing correctly (or more if he figures in uncommon states vs. well known, bigger states).
 
 At this point, he just needs to pick the correct element of this list:
 ```{scala}
